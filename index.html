@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script src="https://kit.fontawesome.com/ee87a1cbfd.js" crossorigin="anonymous"></script>
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <button class="cabecalho__button">
+                <span class="hamburguer"></span>
+            </button>
+            <ul class="cabecalho__lista" role="cabecalho__lista">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skill">Habilidades</a></li>
+                <li><a href="#area">Qualificações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home__img grid">
+                
+                    <img src="assets/img/IMG_20240417_120215_270_2_1-removebg-preview.png">
+            </div>
+            <div class="home__text">
+                <h2>Sou <span>Abel Eduardo</span></h2>
+                <h3>FullStack Developer</h3>
+                <p>Meu nome é Abel Eduardo, tenho 20 anos e sou Desenvolvedora Front-end e Back-end mas já no nível de um FullStack. Essas áreas foram as primeiras a me conquistarem no ensino médio e a que quero continuar nesta carreira! Todo desgin, código, implementação é algo incrível e espero poder fazer parte de empresas em crescimento e expandir minhas habilidades!</p>
+                <div class="home__text__button">
+                    <button class="home__button__contateme"><a href="#contato">Contate-me<i class="fa-solid fa-paper-plane"></a></i></button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <h1>SOBRE</h1>
+        <section class="sobre" id="sobre">
+            <div class="sobre__text">
+                <div class="sobre__text__detalhes">
+                    <p>Moro no interior de Luanda, e uma das coisas que me conquistou foi a área de programação. Desde meus dez anos de idade já mexia no computador do meu pai e sempre achei incrível! Meu tio, cursou faculdade de Sistemas de Informação e por amar computadores e como eles funcionam, decidi fazer o mesmo! Foi a melhor coisa que decidi. Desde então pretendo evoluir minhas habilidades de programação no mundo profissional e educacional, sempre disposta a mudar e aprender coisas novas de diferentes pessoas, setores, áreas e locais.</p>
+                    <button class="sobre__button"><a href="assets/files/certificateFullStack.pdf">Baixar CV</a><i class="fa-solid fa-download"></i></button>
+                </div>
+            </div>
+                <img class="sobre__img" src="assets/img/sobre.jpg">
+        </section>
+
+        <h1>HABILIDADES</h1>
+        <section class="habilidades" id="skill">
+            <div class="card-frontend">
+                <h4>Front-end</h4>
+                <label for="">
+                    <div class="column">
+                        <div class="row">
+                            <p>HTML</p>
+                            <p class="percentual">90%</p>
+                        </div>
+                        <div class="progresso progresso-html"><span></span></div>
+                    </div>
+
+                    <div class="column">
+                        <div class="row">
+                            <p>CSS</p>
+                            <p class="percentual">90%</p>
+                        </div>
+                        <div class="progresso progresso-css"><span></span></div>
+                    </div>
+
+                    <div class="column">
+                        <div class="row">
+                            <p>JavaScript</p>
+                            <p class="percentual">40%</p>
+                        </div> 
+                        <div class="progresso progresso-js"><span></span></div>
+                    </div>
+
+                    <div class="column">
+                        <div class="row">
+                            <p>Bootstrap</p>
+                            <p class="percentual">50%</p>
+                        </div> 
+                        <div class="progresso progresso-bt"><span></span></div>
+                    </div>
+
+                    <div class="column">
+                        <div class="row">
+                            <p>JQuery</p>
+                            <p class="percentual">50%</p>
+                        </div> 
+                        <div class="progresso progresso-wordpress"><span></span></div>
+                    </div>
+
+                    <div class="column">
+                        <div class="row">
+                            <p>Wordpress</p>
+                            <p class="percentual">50%</p>
+                        </div> 
+                        <div class="progresso progresso-wordpress"><span></span></div>
+                    </div>
+
+                </label>
+            </div>
+            <div class="card-backend">
+                <h4>Back-end</h4>
+                <label for="">
+                    <div class="column">
+                        <div class="row">
+                            <p>Python</p>
+                            <p class="percentual">40%</p>
+                        </div>
+                        <div class="progresso progresso-python"><span></span></div>
+                    </div>
+                    <div class="column">
+                        <div class="row">
+                            <p>Java</p>
+                            <p class="percentual">25%</p>
+                        </div>
+                        <div class="progresso progresso-java"><span></span></div>
+                    </div>
+                </label>
+            </div>
+        </section>
+
+        <section class="qualificacao" id="area">
+            <h1 class="section-title">QUALIFICAÇÕES</h1>
+    
+            <div class="qualificacao-container container">
+                <div class="qualificacao-tabs">
+                    <div class="qualificacao-button qualificacao-ativa qualificacao-educacao" data-target='#educacao'>
+                        <i class="fa-solid fa-building-columns qualificacao-icon"></i>Educação
+                    </div>
+    
+                    <div class="qualificacao-button qualificacao-trabalho" data-target='#trabalho'>
+                        <i class="fa-solid fa-briefcase qualificacao-icon"></i>Trabalhos
+                    </div>
+                </div>
+    
+                    <div class="qualificacao-sections">
+                        <div class="qualificacao-content qualificacao-ativa" data-content id="educacao">
+                            <div class="qualificacao-data">
+                                <div class="qualificacao-text">
+                                    <h4 class="qualificacao-title">Sistemas de Gerenciamento de Redes</h4>
+                                    <span class="qualificacao-subtitle">Cisco Network Academia - USA</span>
+                                    <div class="qualificacao-calendario">
+                                        <i class="fa-solid fa-calendar-days"></i>2021 - 2024
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualificacao-bolinha"></span>
+                                    <span class="qualificacao-linha"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualificacao-content" data-content id="trabalho">
+                            <div class="qualificacao-data">
+    
+                                <div class="qualificacao-text">
+                                    <h4 class="qualificacao-title">FullStack Developer</h4>
+                                    <span class="qualificacao-subtitle">Alura - Brasil</span>
+                                    <div class="qualificacao-calendario">
+                                        <i class="fa-solid fa-calendar-days"></i>2022 - o momento
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualificacao-bolinha"></span>
+                                    <span class="qualificacao-linha"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="projetos">
+                
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="contato__container">
+                <div class="contato__text">
+                    <h2>Contate-me</h2>
+                    <p>Preencha o formulário, caso interesse em mim, e encaminhe para o meu e-mail. Entrarei em contato o mais rápido possível!</p>
+                    <p>"O trabalho vai preencher uma grande parte da sua vida, e a única maneira de ficar completamente satisfeito é fazer o que você acredita ser um bom trabalho. E a única forma de fazer um bom trabalho é amar aquilo que você faz. Se você ainda não descobriu o que é, continue procurando. Não se acomode." - Steve Jobs</p>
+                    <div class="contato-icon">
+                        <a href="#"><img src="assets/img/linkedin.png" alt=""></a>
+                        <a href="#"><img src="assets/img/github.png" alt=""></a>
+                        <a href="#"><img src="assets/img/whatsapp.png" alt=""></a>
+                    </div>
+                </div>
+            
+                <div class="contato__card">
+                    <div class="contato__card">
+                        <img src="assets/img/marketing-de-email.png" class="contato__email" alt="icon email" srcset="">
+                        <p>Fale comigo através do e-mail, só apertar no botão que vocÊ será encaminhado para o e-mail</p>
+                        <button class="contato__button"><a href="mailto:laryssa.brilhante@hotmail.com">Envie-me um e-mail</a></button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-esquerdo">
+                <h2>Abel Eduardo</h2>
+                <h3>FullStack Developer</h3>
+            </div>
+            <div class="footer-direito">
+                <a href="#"><img src="assets/img/instagram.png" alt=""></a>
+                <a href="#"><img src="assets/img/facebook.png" alt=""></i></a>
+                <a href="#"><img src="assets/img/telegram.png" alt=""></i></a>
+            </div>
+        </div>
+            <p class="footer-copy">&#169; Abel Eduardo. Todos os direitos reservados</p>
+    </footer>
+    
+<script src="assets/js/main.js"></script>
+</body>
+</html>
